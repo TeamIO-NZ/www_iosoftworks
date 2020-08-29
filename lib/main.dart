@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:www_iosoftworks/view/HomeView.dart';
 
 void main() {
   runApp(
@@ -8,6 +9,7 @@ void main() {
         visualDensity: VisualDensity.adaptivePlatformDensity,
         primarySwatch: Colors.grey[900]
       ),
+      home: HomeView(),
     ),
   );
 }
